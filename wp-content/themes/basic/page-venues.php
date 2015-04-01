@@ -14,7 +14,7 @@ Template Name: Venue Page
  	</div>
 	
 	<div class="row col-xs-11 col-xs-offset-1 metaslider">
-	<?php echo do_shortcode("[metaslider id=]"); ?>
+	<?php the_field('slider');?>
 	</div>
 
 	<div class="col-xs-11 col-xs-offset-1">
