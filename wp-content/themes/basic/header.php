@@ -19,10 +19,10 @@
 
   <div id="sidebar">
 		<ul>
-			<li><a href="#">Login/Logout</a></li>
 			<li><a href="<?php bloginfo('url'); ?>">Home</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/areas">Areas</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/directory">Directory</a></li>
+			<li><a href="javascript:javascript:history.go(-1)">Back</a>
 		</ul>
 	</div>
 
