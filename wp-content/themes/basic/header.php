@@ -20,9 +20,9 @@
   <div id="sidebar">
 		<ul>
 			<li><a href="#">Login/Logout</a></li>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Areas</a></li>
-			<li><a href="#">Directory</a></li>
+			<li><a href="<?php bloginfo('url'); ?>">Home</a></li>
+			<li><a href="<?php bloginfo('url'); ?>/areas">Areas</a></li>
+			<li><a href="<?php bloginfo('url'); ?>/directory">Directory</a></li>
 		</ul>
 	</div>
 
