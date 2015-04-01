@@ -19,11 +19,10 @@
 
   <div id="sidebar">
 		<ul>
-			<li class="<?php is_active('about'); ?>"><a href="<?php bloginfo('url'); ?>/about">Login/Logout</a></li>
-			<li class="<?php ?>"><a href="<?php bloginfo('url'); ?>">Home</a></li>
-			<li class="<?php is_active('category'); ?>"><a href="<?php bloginfo('url'); ?>/category">Category</a></li>
-			<li class="<?php is_active('areas'); ?>"><a href="<?php bloginfo('url'); ?>/areas">Areas</a></li>
-			<li class="<?php is_active('directory'); ?>"><a href="<?php bloginfo('url'); ?>/directory">Directory</a></li>
+			<li><a href="#">Login/Logout</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Areas</a></li>
+			<li><a href="#">Directory</a></li>
 		</ul>
 	</div>
 
@@ -34,7 +33,6 @@
 			<span class="bar"></span>
 			<span class="bar"></span>
 		</a>
-	
 	
 	<div class="header">
 		<div class="logo"><h1>MataMunch</h1></div>
