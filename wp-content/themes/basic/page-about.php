@@ -1,10 +1,18 @@
 <?php get_header();
 /*
-Template Name: About Page
+Template Name: Areas Page
 */
 ?>
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php 
+
+$args = array(
+		'post_type'=>'areas'
+	);
+
+$areas = new WP_Query( $args );
+
+if ($areas->have_posts()) : while ($areas->have_posts()) : $areas->the_post(); ?>
 
   	<h1><?php the_title(); ?></h1>
  	<?php the_content(); ?>
