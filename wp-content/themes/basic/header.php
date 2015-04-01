@@ -22,7 +22,7 @@
 			<li><a href="<?php bloginfo('url'); ?>">Home</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/areas">Areas</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/directory">Directory</a></li>
-			<li><a href="javascript:javascript:history.go(-1)">Back</a>
+			<li><a href="javascript:javascript:history.go()">Back</a>
 		</ul>
 	</div>
 
