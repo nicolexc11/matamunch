@@ -10,11 +10,17 @@
     padding: 0;
 }
 
-body, html {
+html {
+  height: 100%;
+}
+
+body {
     height: 100%;
     margin: 0;
-    overflow:hidden;
-    position: relative;
+    /*overflow:hidden;*/
+    background-color: #333;
+    background-image: url('images/food_bg_drk.png');
+    background-repeat: repeat;
 }
 
 .container {
@@ -27,7 +33,9 @@ body, html {
     -ms-transition:  left 0.4s ease-in-out;
     -o-transition:  left 0.4s ease-in-out;
     transition:  left 0.4s ease-in-out;
-    background-color: #666;
+    background-color: #333;
+    background-image: url('images/food_bg_drk.png');
+    background-repeat: repeat;
 }
 
 .container.open-sidebar {
@@ -133,8 +141,99 @@ body, html {
 }
 
 
+
+
+
+
+
+
+
 /*================ header general style ================*/
+.header {
+  border-bottom: 3px solid #630001;
+}
 .logo {
     text-align: center;
+}
+
+.logo h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+/*================ venues general style ================*/
+.venue-title h1 {
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+.metaslider {
+  background-color: none;
+  margin-bottom: 20px;
+
+}
+
+.panel.panel-default{
+  border-color: #a6001e;
+}
+
+.panel-body {
+  background-color: #ca0024;
+}
+
+.panel.panel-default .panel-heading {
+  background-color: #a6001e;
+}
+
+.panel-body p{
+  color: #fff;
+}
+
+h2.panel-title a{
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2.panel-title a:hover{
+  color:#630001;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2.panel-title a.collapsed{
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2.panel-title a.collapsed:hover{
+  color:#630001;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2.panel-title a.collapsed:active{
+  color:#630001;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 

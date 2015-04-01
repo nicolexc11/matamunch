@@ -11,6 +11,7 @@
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.touchSwipe.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/sidebar.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<?php wp_head();?>
 </head>
 <body>
@@ -23,7 +24,6 @@
 			<li class="<?php is_active('category'); ?>"><a href="<?php bloginfo('url'); ?>/category">Category</a></li>
 			<li class="<?php is_active('areas'); ?>"><a href="<?php bloginfo('url'); ?>/areas">Areas</a></li>
 			<li class="<?php is_active('directory'); ?>"><a href="<?php bloginfo('url'); ?>/directory">Directory</a></li>
-			<li class="<?php is_active('hours'); ?>"><a href="<?php bloginfo('url'); ?>/hours">Hours</a></li>
 		</ul>
 	</div>
 
