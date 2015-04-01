@@ -1,6 +1,9 @@
-	<div id="footer">
-		<?php wp_footer(); ?>
-		<p>© 2015 Matamunch</p>
+	<div class="row col-xs-12">
+		<div id="footer">
+			<p style="color:white;">© 2015 Matamunch</p>
+			<?php wp_footer(); ?>
+
+		</div>
 	</div>
 
 </div><!-- x main content -->     
